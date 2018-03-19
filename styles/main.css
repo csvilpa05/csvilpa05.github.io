@@ -1,0 +1,119 @@
+/*Main CSS file for "The Halloween Store" website, coded by Christien Svilpa.*/
+
+html /*Stylization for entire webpage.*/
+{
+    background-image: url(../images/bats.gif);
+}
+
+body /*Setting the whole page's font family and size.*/
+{
+    font-family: Sans-serif, Arial, Helvetica;
+    font-size: 1em;
+    width: 800px;
+    box-shadow: 0em 0em 1em 0.5em black;
+    border: 0.3em solid black;
+    background-color: white;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header /*Header stylization, including the title and catch-phrase.*/
+{
+    border-bottom: 0.3em solid black;
+    padding: 0.8em;
+    background: linear-gradient(45deg, white 10%, orange 70%, black 100%);
+}
+
+main /*Main content stylization, used to pad the edges of the main content.*/
+{    
+    padding: 1.5em 1.5em 1.5em 0em;
+}
+
+p /*Paragraph stylization.*/
+{
+    font-size: 1.1em
+}
+
+h1 /*Site Welcome heading*/
+{
+    font-size: 1.625em;
+    margin: 0em;
+}
+
+#dropcap::first-letter /*Enlarged 'W' ID for "Welcome", also called an Initial.*/
+{
+    font-size: 2em;
+}
+
+h2 /*Product Category heading.*/
+{
+    font-size: 1.36em
+}
+
+header h1 /*Halloween Store header heading.*/
+{
+    font-size: 2.55em;
+}
+
+header h2 /*Little Goblins header heading.*/
+{
+    font-size: 1.40em;
+    margin: 0em;
+}
+
+#pumpkin /*Image Logo, for stylizing the position.*/
+{
+    margin-right: 1em;
+    float: left;
+}
+
+#derangedcat /*Product of the Week Image, for stylizing the position.*/
+{
+    margin-bottom: 0.5em;
+}
+
+a:visited, a:link /*Link stylization for both visited and untouched link.*/
+{
+    color: orange;
+    font-weight: bold;
+}
+
+a:hover, a:active /*Link stylization for both hovering over the link and whilst the link is in the active state.*/
+{
+    color: green;
+    font-weight: bold;
+}
+
+li /*Unordered list point stylization.*/
+{
+    line-height: 1.5em;
+}
+
+footer /*Copyright footer for Ben Murach.*/
+{
+    padding: 1.2em;
+    font-size: 0.85em;    
+    text-align: center;
+    border-top: 0.3em solid black;    
+    background: linear-gradient(45deg, black 0%, orange 30%, white 100%);
+}
+
+.body /*Body column for sidebar setup.*/
+{
+    float: left;
+    width: 600px;
+}
+
+.sidebar /*Sidebar column for sidebar setup, for unordered list.*/
+{
+    float: left;
+    width: 160px;
+    padding-right: 0.5em;
+}
+
+.line /*Line element to clear the footer*/
+{
+    content: "";
+    display: table;
+    clear: both;
+}
